@@ -13,7 +13,7 @@ export const ExperienceSection: React.FC = () => {
         </SectionHeading>
         
         <div className="mt-20 lg:mt-32">
-          {EXPERIENCES.map((exp, idx) => (
+          {EXPERIENCES.map((exp) => (
             <motion.div 
               key={exp.id} 
               initial={{ opacity: 0, y: 40 }}
