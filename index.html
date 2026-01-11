@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabir Ali | Senior Full Stack Engineer</title>
+    <meta name="description" content="Senior Full Stack Engineer specializing in MERN stack, Next.js, and high-concurrency systems.">
+    
+    <!-- Favicon Fix: Base64 encoded icon to prevent 404 -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22bold%22>S</text></svg>">
+    
+    <!-- <script src="https://cdn.tailwindcss.com/3.4.15"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-grid: rgba(0,0,0,0.03);
+        }
+        .dark {
+            --bg-grid: rgba(255,255,255,0.03);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .mono { font-family: 'Geist Mono', monospace; }
+        
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 10px; }
+        .dark ::-webkit-scrollbar-thumb { background: #27272a; }
+        
+        html.lenis, html.lenis body { height: auto; }
+        .lenis.lenis-smooth { scroll-behavior: auto !important; }
+
+        .bg-grid-pattern {
+            background-image: radial-gradient(var(--bg-grid) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+
+        .reveal-container::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.2) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: skewX(-25deg);
+            transition: left 0.7s ease-in-out;
+            pointer-events: none;
+        }
+        .reveal-container:hover::after {
+            left: 150%;
+        }
+    </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "lucide-react": "https://esm.sh/lucide-react@0.460.0?deps=react@18.3.1",
+    "framer-motion": "https://esm.sh/framer-motion@11.11.17?deps=react@18.3.1,react-dom@18.3.1",
+    "lenis": "https://esm.sh/lenis@1.1.18",
+    "@emailjs/browser": "https://esm.sh/@emailjs/browser@4.4.1"
+  }
+}
+</script>
+</head>
+<body class="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-500 antialiased selection:bg-zinc-950 selection:text-white dark:selection:bg-white dark:selection:text-zinc-950">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="bg-grid-pattern min-h-screen"></div>
+    <!-- Removed ./ prefix to help with MIME resolution in certain environments -->
+    <script type="module" src="./src/main.tsx"></script>
+</body>
+</html>
