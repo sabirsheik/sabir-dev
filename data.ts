@@ -93,25 +93,6 @@ export const PROJECTS: Project[] = [
   },
 ];
 
-// export const SKILLS: SkillCategory[] = [
-//   {
-//     title: 'Frontend Engine',
-//     skills: ['React 19', 'TypeScript', 'Next.js (App Router)', 'Tailwind CSS', 'Framer Motion', 'TanStack Query', 'Redux Toolkit']
-//   },
-//   {
-//     title: 'Backend Systems',
-//     skills: ['Node.js', 'Express.js', 'RESTful APIs', 'JWT Auth', 'WebSockets', 'Firebase', 'Serverless Functions', 'Supabase']
-//   },
-//   {
-//     title: 'Infrastructure',
-//     skills: ['MongoDB', 'PostgreSQL', 'AWS', 'Vercel', 'Netlify', 'Git / GitHub', 'VPS Hosting']
-//   },
-//   {
-//     title: 'Engineering Tools',
-//     skills: ['Postman', 'VS Code', 'React Query', 'Cloudinary', 'Bcrypt', 'Axios', '& more']
-//   }
-// ];
-
 export const SKILLS: SkillCategory[] = [
   {
     title: "Frontend Engine",

@@ -27,7 +27,7 @@ export const AboutSection: React.FC = () => {
             </p>
             <div className="grid grid-cols-3 gap-8 pt-16 border-t border-zinc-200 dark:border-zinc-800">
               <div className="space-y-2">
-                <p className="text-5xl md:text-7xl font-black tracking-tighter">06+</p>
+                <p className="text-5xl md:text-7xl font-black tracking-tighter">02+</p>
                 <p className="text-[9px] font-black uppercase tracking-[0.4em] text-zinc-400">Total_Years</p>
               </div>
               <div className="space-y-2">

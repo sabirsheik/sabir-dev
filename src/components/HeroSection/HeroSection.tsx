@@ -18,7 +18,7 @@ export const HeroSection: React.FC = () => {
             className="flex items-center space-x-6 mb-10"
           >
             <div className="w-16 h-[1px] bg-zinc-900 dark:bg-white" />
-            <span className="text-[10px] font-black tracking-[0.5em] uppercase text-zinc-400">FULLSTACK_DEVELOPER.v2.0</span>
+            <span className="text-[10px] font-black tracking-[0.5em] uppercase text-zinc-400">FULLSTACK_DEVELOPER.</span>
           </motion.div>
           
           <motion.h1 
