@@ -67,9 +67,9 @@ export const HeroSection: React.FC = () => {
             transition={{ duration: 1.5 }}
             className="relative w-full aspect-[4/5] max-w-[500px] mx-auto lg:ml-auto"
           >
-            <FloatingChip icon={<Zap size={16}/>} delay={0.8} x={-10} y={15}>Latency: 0.3s</FloatingChip>
-            <FloatingChip icon={<Brain size={16}/>} delay={1} x={85} y={20}>MERN Specialist</FloatingChip>
-            <FloatingChip icon={<Rocket size={16}/>} delay={1.2} x={5} y={85}>Production Ready</FloatingChip>
+            <FloatingChip icon={<Zap size={16}/>} delay={0.8} x={-10} y={15}>Modern Web Apps</FloatingChip>
+            <FloatingChip icon={<Brain size={16}/>} delay={1} x={85} y={20}>MERN Developer</FloatingChip>
+            <FloatingChip icon={<Rocket size={16}/>} delay={1.2} x={5} y={85}>Production Ready Application</FloatingChip>
 
             <div className="reveal-container relative w-full h-full rounded-[5rem] overflow-hidden border-[15px] border-zinc-50 dark:border-zinc-900 bg-zinc-50 dark:bg-zinc-900 shadow-5xl transition-all duration-700 group-hover:border-zinc-200 dark:group-hover:border-zinc-800">
               <img 

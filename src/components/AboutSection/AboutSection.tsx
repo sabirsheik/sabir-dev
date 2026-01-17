@@ -8,7 +8,7 @@ export const AboutSection: React.FC = () => {
   return (
     <section id="about" className="py-48 lg:py-64 px-6 md:px-12 lg:px-24 bg-zinc-50/50 dark:bg-zinc-900/10">
       <div className="max-w-screen-2xl mx-auto">
-        <SectionHeading label="01. PHILOSOPHY" subtitle="Focusing on sub-millisecond efficiency and structural integrity for full-stack web applications.">
+        <SectionHeading label="01. About" subtitle="Focusing on sub-millisecond efficiency and structural integrity for full-stack web applications.">
           Systems-First <br /> Engineering.
         </SectionHeading>
         
@@ -20,7 +20,7 @@ export const AboutSection: React.FC = () => {
             className="space-y-12 text-2xl md:text-3xl lg:text-4xl text-zinc-500 font-light leading-snug"
           >
             <p>
-              I design systems with a <span className="text-zinc-950 dark:text-zinc-100 font-bold underline decoration-zinc-300 underline-offset-4">strong emphasis</span> on data integrity, long-term stability, and scalable architecture building solutions that remain reliable under extreme growth.
+               I design systems with a focus on <span className="text-zinc-950 dark:text-zinc-100 font-bold underline decoration-zinc-300 underline-offset-4">data integrity</span>, long-term stability, and scalable architecture, ensuring applications stay reliable as they grow.
             </p>
             <p>
               As a developer, I have standardized zero-trust security and high-uptime architectures across 20+ projects.
@@ -35,7 +35,7 @@ export const AboutSection: React.FC = () => {
                 <p className="text-[9px] font-black uppercase tracking-[0.4em] text-zinc-400">Deployments</p>
               </div>
               <div className="space-y-2">
-                <p className="text-5xl md:text-7xl font-black tracking-tighter">100</p>
+                <p className="text-5xl md:text-7xl font-black tracking-tighter">90+</p>
                 <p className="text-[9px] font-black uppercase tracking-[0.4em] text-zinc-400">Stability%</p>
               </div>
             </div>

@@ -9,7 +9,7 @@ import type {
 export const EXPERIENCES: Experience[] = [
   {
     id: "exp1",
-    company: "Fiverr & Linkedln (Global Engineering)",
+    company: "Fiverr & Linkedln",
     role: "Freelance Full Stack Web Developer",
     period: "Mar 2023 — Present",
     description: [
@@ -44,7 +44,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     id: "exp4",
-    company: 'Project Starlit M3 ("Company")',
+    company: 'Project Starlit M3',
     role: "Full Stack Developer & AI Integration Specialist",
     period: "Nov 2025 — Present",
     description: [
@@ -124,7 +124,7 @@ export const SKILLS: SkillCategory[] = [
     skills: [
       "MongoDB",
       "PostgreSQL",
-      "Redis / Caching Strategies",
+      "Caching Strategies",
       "Vercel / Netlify Deployment",
       "Git / GitHub Workflows",
       "CI/CD Pipelines",
@@ -135,12 +135,11 @@ export const SKILLS: SkillCategory[] = [
     title: "Engineering Tools",
     skills: [
       "Postman / Insomnia",
-      "VS Code & Extensions",
+      "VS Code",
       "React Query",
       "Cloudinary / Media Management",
       "Bcrypt",
       "Axios / Fetch API",
-      "Linting & Prettier Setup",
       "GoHighLevel"
     ],
   },

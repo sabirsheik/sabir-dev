@@ -14,17 +14,17 @@ export const Navbar: React.FC<{ dark: boolean; setDark: (v: boolean) => void }> 
   }, []);
 
   const navLinks = [
-    { name: 'Philosophy', href: '#about' },
-    { name: 'Stack', href: '#skills' },
-    { name: 'Timeline', href: '#experience' },
-    { name: 'Work', href: '#projects' },
+    { name: 'About', href: '#about' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Project', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-700 ${scrolled ? 'bg-white/90 dark:bg-zinc-950/90 backdrop-blur-xl border-b border-zinc-100 dark:border-zinc-900 py-4' : 'bg-transparent py-8'}`}>
       <div className="max-w-screen-2xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#" className="text-xl font-black tracking-tighter mono">
+        <a href="#" className="text-2xl font-black tracking-tighter mono">
           SABIR<span className="text-zinc-400">_ALI</span>
         </a>
         

@@ -9,7 +9,7 @@ export const SkillsSection: React.FC = () => {
   return (
     <section id="skills" className="py-48 lg:py-64 px-6 md:px-12 lg:px-24">
       <div className="max-w-screen-2xl mx-auto">
-        <SectionHeading label="02. INFRASTRUCTURE" subtitle="Standardizing the selection of technologies for global scale delivery.">
+        <SectionHeading label="02. Skills" subtitle="Standardizing the selection of technologies for global scale delivery.">
           The Production <br /> Stack.
         </SectionHeading>
         

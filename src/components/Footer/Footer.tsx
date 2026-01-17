@@ -80,9 +80,7 @@ export const Footer: React.FC = () => {
                 <p className="text-xl font-medium tracking-tight uppercase">
                   Pakistan
                 </p>
-                <p className="text-zinc-500 font-light italic mt-2">
-                  Work
-                </p>
+                <p className="text-zinc-500 font-light italic mt-2">Work</p>
               </div>
               <div>
                 <p className="text-[10px] font-black uppercase tracking-[0.5em] text-zinc-400 mt-10 mb-4">
@@ -125,31 +123,15 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="pt-16 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-12">
+        <div className="pt-16 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row justify-center items-center gap-12">
           <div className="flex flex-col gap-4 items-center md:items-start">
             <p className="text-[10px] font-black tracking-[0.5em] mono text-zinc-300 dark:text-zinc-800 uppercase italic">
-              SABIR_ALI // FULLSTACK_DEV
+              SABIR_ALI | | FULLSTACK_DEV
             </p>
             <p className="text-[9px] text-zinc-400 font-medium tracking-[0.3em] uppercase">
               &copy; {new Date().getFullYear()} ALL NODES OPERATIONAL.
               ENCRYPTED.
             </p>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-12 text-[9px] font-black uppercase tracking-[0.7em] text-zinc-200 dark:text-zinc-800">
-            <span>MERN</span>
-            <span>•</span>
-            <span>SECURITY</span>
-            <span>•</span>
-            <span>SCALE</span>
-            <span>•</span>
-            <span>Developer</span>
-          </div>
-
-          <div className="flex gap-4">
-            <div className="px-6 py-3 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full text-[9px] font-black uppercase tracking-widest text-zinc-400">
-              SYSTEM_STATUS: STABLE
-            </div>
           </div>
         </div>
       </div>
