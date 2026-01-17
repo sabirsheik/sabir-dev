@@ -7,8 +7,8 @@ import { PROJECTS } from "../../../data";
 export const ProjectsSection: React.FC = () => {
   // Production-ready high-quality placeholders if specific images are not provided
   const projectImages = [
-    "../../public/Ecommerce.png", // E-commerce
-    "../../public/AIWorldTech.png", // AI / Crypto
+    "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1600", // E-commerce
+    "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1600", // AI / Crypto
   ];
 
   return (
@@ -18,7 +18,7 @@ export const ProjectsSection: React.FC = () => {
     >
       <div className="max-w-screen-2xl mx-auto">
         <SectionHeading
-          label="04. Project"
+          label="04. CASE STUDIES"
           subtitle="Deep-dives into high-performance web applications and software solutions."
         >
           Selected <br /> Works.
@@ -44,7 +44,7 @@ export const ProjectsSection: React.FC = () => {
                   <img
                     src={projectImages[idx] || projectImages[0]}
                     alt={project.title}
-                    className="w-full h-full object-cover rounded-[2.5rem] lg:rounded-[3.5rem]  brightness-75 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105"
+                    className="w-full h-full object-cover rounded-[2.5rem] lg:rounded-[3.5rem] grayscale brightness-75 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 transition-opacity group-hover:opacity-0" />
                   {project.links?.live && (
