@@ -44,10 +44,13 @@ export const HeroSection: React.FC = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4 }}
-            className="flex flex-wrap gap-8 items-center"
+            className="flex flex-wrap gap-8 items-center mb-2"
           >
             <a href="#projects" className="group px-12 py-8 bg-zinc-950 dark:bg-white text-white dark:text-zinc-950 font-black rounded-full flex items-center justify-center transition-all hover:scale-105 shadow-2xl active:scale-95">
               VIEW WORK <ArrowRight size={20} className="ml-4 transition-transform group-hover:translate-x-2" />
+            </a>
+            <a href="/Sabir CV.pdf" download className="group px-12 py-8 bg-white dark:bg-zinc-900 text-zinc-950 dark:text-white font-black rounded-full flex items-center justify-center transition-all hover:scale-105 shadow-2xl active:scale-95 border-2 border-zinc-200 dark:border-zinc-800">
+              DOWNLOAD RESUME
             </a>
             <div className="flex gap-8">
               <Tooltip text="GitHub Protocol">
@@ -70,15 +73,14 @@ export const HeroSection: React.FC = () => {
             <FloatingChip icon={<Zap size={16}/>} delay={0.8} x={-10} y={15}>Modern Web Apps</FloatingChip>
             <FloatingChip icon={<Brain size={16}/>} delay={1} x={85} y={20}>MERN Developer</FloatingChip>
             <FloatingChip icon={<Rocket size={16}/>} delay={1.2} x={5} y={85}>Production Ready Application</FloatingChip>
-
             <div className="reveal-container relative w-full h-full rounded-[5rem] overflow-hidden border-[15px] border-zinc-50 dark:border-zinc-900 bg-zinc-50 dark:bg-zinc-900 shadow-5xl transition-all duration-700 group-hover:border-zinc-200 dark:group-hover:border-zinc-800">
               <img 
                 src="https://i.postimg.cc/GtDNPywB/Sabir.jpg" 
                 alt="Sabir Ali Professional" 
-                className="w-full h-full object-cover grayscale brightness-[0.7] transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 scale-[1.1] group-hover:scale-100 group-hover:cursor-pointer"
+                className="w-full h-full object-cover transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 scale-[1.1] group-hover:scale-100 group-hover:cursor-pointer"
                 onError={(e) => { (e.target as any).src = "https://i.postimg.cc/GtDNPywB/Sabir.jpg"; }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 to-transparent group-hover:opacity-0 transition-opacity duration-1000" />
+
             </div>
             <div className="absolute -inset-10 -z-10 border-2 border-dashed border-zinc-100 dark:border-zinc-900 rounded-[6rem] opacity-20 group-hover:opacity-60 transition-all duration-1000 group-hover:rotate-3" />
           </motion.div>

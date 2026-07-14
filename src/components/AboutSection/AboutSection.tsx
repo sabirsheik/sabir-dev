@@ -51,7 +51,7 @@ export const AboutSection: React.FC = () => {
               <img 
                 src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=85&w=1400" 
                 alt="Infrastructure" 
-                className="w-full h-full object-cover rounded-[3.5rem] lg:rounded-[5.5rem] grayscale group-hover:grayscale-0 transition-all duration-1000 opacity-60 group-hover:opacity-100"
+                className="w-full h-full object-cover rounded-[3.5rem] lg:rounded-[5.5rem] group-hover:grayscale-0 transition-all duration-1000 group-hover:opacity-100"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-tr from-zinc-950 via-transparent to-transparent opacity-70" />

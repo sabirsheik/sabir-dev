@@ -5,10 +5,10 @@ import { SectionHeading } from "../Common/UI";
 import { PROJECTS } from "../../../data";
 
 export const ProjectsSection: React.FC = () => {
-  // Production-ready high-quality placeholders if specific images are not provided
+  // Production-ready high-quality images from public folder
   const projectImages = [
-    "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1600", // E-commerce
-    "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1600", // AI / Crypto
+    "/Ecommerce.png", // E-commerce
+    "/AIworldTech.png", // AI / Crypto
   ];
 
   return (
@@ -36,24 +36,22 @@ export const ProjectsSection: React.FC = () => {
                 idx % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
               }`}
             >
-              <div className="flex-1 w-full group overflow-hidden rounded-[3rem] lg:rounded-[4rem]">
+              <div className="flex-1 w-full overflow-hidden rounded-[3rem] lg:rounded-[4rem]">
                 <motion.div
-                  whileHover={{ scale: 1.02 }}
                   className="relative aspect-[16/10] bg-zinc-100 dark:bg-zinc-900 p-2 overflow-hidden"
                 >
                   <img
                     src={projectImages[idx] || projectImages[0]}
                     alt={project.title}
-                    className="w-full h-full object-cover rounded-[2.5rem] lg:rounded-[3.5rem] grayscale brightness-75 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105"
+                    className="w-full h-full object-cover rounded-[2.5rem] lg:rounded-[3.5rem]"
                   />
-                  <div className="absolute inset-0 bg-black/10 transition-opacity group-hover:opacity-0" />
                   {project.links?.live && (
-                    <div className="absolute bottom-6 right-6 lg:bottom-10 lg:right-10 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
+                    <div className="absolute bottom-6 right-6 lg:bottom-10 lg:right-10">
                       <a
                         href={project.links.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-4 lg:p-6 bg-white text-black rounded-2xl lg:rounded-3xl shadow-3xl hover:scale-110 flex items-center justify-center"
+                        className="p-4 lg:p-6 bg-white text-black rounded-2xl lg:rounded-3xl shadow-3xl flex items-center justify-center"
                       >
                         <ExternalLink size={24} />
                       </a>
