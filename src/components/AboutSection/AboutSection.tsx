@@ -6,7 +6,7 @@ import { SectionHeading } from '../Common/UI';
 
 export const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="py-48 lg:py-64 px-6 md:px-12 lg:px-24 bg-zinc-50/50 dark:bg-zinc-900/10">
+    <section id="about" className="py-24 lg:py-64 px-6 md:px-12 lg:px-24 bg-zinc-50/50 dark:bg-zinc-900/10">
       <div className="max-w-screen-2xl mx-auto">
         <SectionHeading label="01. About" subtitle="Focusing on sub-millisecond efficiency and structural integrity for full-stack web applications.">
           Systems-First <br /> Engineering.

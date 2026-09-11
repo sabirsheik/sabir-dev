@@ -94,7 +94,7 @@ export const ContactSection: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-64 lg:py-80 px-6 md:px-12 lg:px-24 bg-zinc-950 text-white overflow-hidden relative">
+    <section id="contact" className="py-24 lg:py-80 px-6 md:px-12 lg:px-24 bg-zinc-950 text-white overflow-hidden relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[45rem] font-black text-white/5 tracking-tighter pointer-events-none select-none italic -z-0">
         HIRE
       </div>

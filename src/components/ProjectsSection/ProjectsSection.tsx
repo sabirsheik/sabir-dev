@@ -14,7 +14,7 @@ export const ProjectsSection: React.FC = () => {
   return (
     <section
       id="projects"
-      className="py-48 lg:py-64 px-6 md:px-12 lg:px-24 overflow-hidden"
+      className="py-24 lg:py-64 px-6 md:px-12 lg:px-24 overflow-hidden"
     >
       <div className="max-w-screen-2xl mx-auto">
         <SectionHeading

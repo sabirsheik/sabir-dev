@@ -6,7 +6,7 @@ import { EXPERIENCES } from '../../../data';
 
 export const ExperienceSection: React.FC = () => {
   return (
-    <section id="experience" className="py-48 lg:py-64 px-6 md:px-12 lg:px-24 bg-zinc-50/50 dark:bg-zinc-900/10">
+    <section id="experience" className="py-24 lg:py-64 px-6 md:px-12 lg:px-24 bg-zinc-50/50 dark:bg-zinc-900/10">
       <div className="max-w-5xl mx-auto">
         <SectionHeading label="03. Experience" subtitle="Professional trajectory defined by technical impact and rapid delivery.">
           Professional <br /> History.
