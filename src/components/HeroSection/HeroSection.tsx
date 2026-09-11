@@ -75,10 +75,9 @@ export const HeroSection: React.FC = () => {
             <FloatingChip icon={<Rocket size={16}/>} delay={1.2} x={5} y={85}>Production Ready Application</FloatingChip>
             <div className="reveal-container relative w-full h-full rounded-[5rem] overflow-hidden border-[15px] border-zinc-50 dark:border-zinc-900 bg-zinc-50 dark:bg-zinc-900 shadow-5xl transition-all duration-700 group-hover:border-zinc-200 dark:group-hover:border-zinc-800">
               <img 
-                src="https://i.postimg.cc/GtDNPywB/Sabir.jpg" 
+                src="/Sabir.jpg" 
                 alt="Sabir Ali Professional" 
                 className="w-full h-full object-cover transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 scale-[1.1] group-hover:scale-100 group-hover:cursor-pointer"
-                onError={(e) => { (e.target as any).src = "https://i.postimg.cc/GtDNPywB/Sabir.jpg"; }}
               />
 
             </div>
